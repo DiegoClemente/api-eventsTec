@@ -23,7 +23,7 @@
   </ul>
 
 <h2>Testing and Usage</h2>
-  <p>All tests were conducted using Insomnia. You can import the <code>Insomnia_Requests.json</code> file into Insomnia to see request examples and test the application's functionalities.</p>
+  <p>All tests were conducted using Insomnia. You can import the <code>Insomnia.json</code> file into Insomnia to see request examples and test the application's functionalities.</p>
 
 <h2>Installation and Execution</h2>
 
@@ -39,27 +39,27 @@
 
   <ol>
       <li>Clone the repository:</li>
-      <pre><code>git clone https://github.com/DiegoClemente/eventstec.git</code></pre>
-    
-      <li><strong>Navigate to the project directory:</strong></li>
-      <pre><code>cd event-management-backend</code></pre>
-    
+      <pre><code>git clone https://github.com/DiegoClemente/api-eventstec.git</code></pre>
+      </br>
+      <li>Navigate to the project directory:></li>
+      <pre><code>cd api-eventstec</code></pre>
+      </br>
       <li><strong>Database Settings:</strong>
         <ul>
           <li>For development (H2 Database already configured): No additional configuration required.</li>
           <li>For production (PostgreSQL): Configure PostgreSQL credentials in the <code>application.properties</code> file.</li>
         </ul>
       </li>
-    
+      </br>
       <li><strong>AWS S3 Settings:</strong></li>
       <p>Configure AWS S3 access keys in the <code>application.properties</code> file for AWS S3 integration.</p>
-    
+      </br>
       <li><strong>Build the Project:</strong></li>
       <pre><code>mvn clean install</code></pre>
-    
+      </br>
       <li><strong>Run the Application:</strong></li>
-      <pre><code>java -jar target/event-management-backend-0.0.1-SNAPSHOT.jar</code></pre>
-    
+      <pre><code>java -jar target/api-eventstec-0.0.1-SNAPSHOT</code></pre>
+      </br>
       <li><strong>Access the Application:</strong></li>
       <p>The application will be running at <a href="http://localhost:8080" target="_blank">http://localhost:8080</a>.</p>
   </ol>
